@@ -1,5 +1,6 @@
 #include "draw.h"
-void renderGame(int numberBadGuess, const set<char> guessedBadChar, string guessWord)
+
+void renderGame(int numberBadGuess, const set<char>& guessedBadChar, string guessWord)
 {
     system("cls");
     cout << FIGURE[numberBadGuess];

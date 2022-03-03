@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void renderGame(int numberBadGuess, const set<char> guessedBadChar, string guessWord);
+void renderGame(int numberBadGuess, const set<char>& guessedBadChar, string guessWord);
 void renderResultGame(string guessWord, string secretWord);
 void renderResultWinGame();
 void renderResultLossGame(const string& secretWord);

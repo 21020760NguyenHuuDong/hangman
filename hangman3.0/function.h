@@ -8,13 +8,14 @@
 #include <string>
 #include <Windows.h>
 #include <conio.h>
+#include <ctime>
 
 using namespace std;
 
 #define MAX_NUMBER_BAD_GUESS 6
 
-//void setWord(vector<string>& fullWord);
-string chooseAWord();
+void setWord(vector<string>& fullWord);
+string chooseAWord(const vector<string>& fullWord);
 char getAChar();
 bool findChar(char guessChar, string secretWord);
 void updateHadChar(string& guessWord, char guessChar, string secretWord);

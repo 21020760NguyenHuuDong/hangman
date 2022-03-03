@@ -2,7 +2,7 @@
 1646304203 source:e:\chuacpp\ltnc1\game\bai3\hangman3.0\function.cpp
 	"function.h"
 
-1646303830 e:\chuacpp\ltnc1\game\bai3\hangman3.0\function.h
+1646310341 e:\chuacpp\ltnc1\game\bai3\hangman3.0\function.h
 	<iostream>
 	<vector>
 	<set>
@@ -10,11 +10,12 @@
 	<string>
 	<Windows.h>
 	<conio.h>
+	<ctime>
 
-1646303953 source:e:\chuacpp\ltnc1\game\bai3\hangman3.0\draw.cpp
+1646306911 source:e:\chuacpp\ltnc1\game\bai3\hangman3.0\draw.cpp
 	"draw.h"
 
-1646304237 e:\chuacpp\ltnc1\game\bai3\hangman3.0\draw.h
+1646304707 e:\chuacpp\ltnc1\game\bai3\hangman3.0\draw.h
 	"function.h"
 	"figure.h"
 
@@ -22,5 +23,39 @@
 	"function.h"
 	"draw.h"
 
-1646303912 e:\chuacpp\ltnc1\game\bai3\hangman3.0\figure.h
+1646310097 e:\chuacpp\ltnc1\game\bai3\hangman3.0\figure.h
+	<string>
+
+1646306911 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\draw.cpp
+	"draw.h"
+
+1646304707 e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\draw.h
+	"function.h"
+	"figure.h"
+
+1646310341 e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\function.h
+	<iostream>
+	<vector>
+	<set>
+	<fstream>
+	<string>
+	<Windows.h>
+	<conio.h>
+	<ctime>
+
+1646310097 e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\figure.h
+	<string>
+
+1646310325 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\main.cpp
+	"function.h"
+	"draw.h"
+
+1646310279 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\function.cpp
+	"function.h"
+
+1646310097 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\figure.cpp
+	"figure.h"
+
+1646310097 source:e:\chuacpp\ltnc1\game\bai3\hangman3.0\figure.cpp
+	"figure.h"
 

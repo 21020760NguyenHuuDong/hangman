@@ -18,10 +18,11 @@ void setWord(vector<string>& fullWord)
     }
 
 }
-string chooseAWord()
+string chooseAWord(const vector<string>& fullWord)
 {
+    int ramdomWord = rand() % fullWord.size();
+    return fullWord[ramdomWord];
 
-    return "hello";
 }
 
 bool findChar(char guessChar, string secretWord)
@@ -45,7 +46,6 @@ void updateHadChar(string& guessWord, char guessChar, string secretWord)
             guessWord[i] = guessChar;
         }
     }
-
 }
 
 void updateNotHadChar(int& numberBadGuess, set<char>& guessBadChar, char guessChar)

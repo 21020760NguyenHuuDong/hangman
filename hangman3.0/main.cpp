@@ -1,14 +1,14 @@
-
 #include "function.h"
 #include "draw.h"
-
 
 vector<string> fullWord;
 set<char> guessedBadChar;
 
 int main()
 {
-    string secretWord = chooseAWord();
+    srand(time(NULL));
+    setWord(fullWord);
+    string secretWord = chooseAWord(fullWord);
     int longSecretWord = secretWord.length();
     string guessWord = string(longSecretWord, '-');
     int numberBadGuess = 0;
@@ -26,8 +26,6 @@ int main()
             updateNotHadChar(numberBadGuess, guessedBadChar, guessChar);
         }
     }
-
     renderResultGame(guessWord, secretWord);
     return 0;
 }
-

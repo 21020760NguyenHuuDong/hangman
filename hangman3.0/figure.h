@@ -1,8 +1,9 @@
 #ifndef FIGURE_H_
 #define FIGURE_H_
-
+#include <string>
+using namespace std;
 // nguồn hình vẽ được lấy trực tiếp từ giáo trình
-string FIGURE[] =
+const string FIGURE[] =
 {
 
         "   -------------    \n"
@@ -63,7 +64,7 @@ string FIGURE[] =
         " -----   \n"
 };
 
-string figureWinGame[] =
+const string figureWinGame[] =
 {
     "     O     \n"
     "    /|\\   \n"
@@ -97,7 +98,7 @@ string figureWinGame[] =
     "    / \\   \n" ,
 };
 
-string figureLossGame[] =
+const string figureLossGame[] =
 {
     "   ------------+    \n"
     "   |    /           \n"

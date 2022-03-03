@@ -33,6 +33,7 @@
 		</Compiler>
 		<Unit filename="draw.cpp" />
 		<Unit filename="draw.h" />
+		<Unit filename="figure.cpp" />
 		<Unit filename="figure.h" />
 		<Unit filename="function.cpp" />
 		<Unit filename="function.h" />
