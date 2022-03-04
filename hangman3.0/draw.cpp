@@ -31,7 +31,8 @@ void renderResultGame(string guessWord, string secretWord)
 
 void renderResultWinGame()
 {
-    while(true)
+    int numberFigre = NUMBER_FIGURE_END_GAME;
+    while(numberFigre--)
     {
         system("cls");
         int sizeOfFigure = sizeof(figureWinGame) / sizeof(string);
@@ -39,13 +40,18 @@ void renderResultWinGame()
         cout << figureWinGame[ramdomFigure];
         cout << "you win, congratulation!";
         Sleep(500);
+        if(kbhit())
+        {
+            break;
+        }
     }
 
 }
 
 void renderResultLossGame(const string& secretWord)
 {
-    while(true)
+    int numberFigre = NUMBER_FIGURE_END_GAME;
+    while(numberFigre--)
     {
         system("cls");
         int sizeOfFigure = sizeof(figureLossGame) / sizeof(string);
@@ -53,5 +59,9 @@ void renderResultLossGame(const string& secretWord)
         cout << figureLossGame[ramdomFigure];
         cout << "you loss, the secret word is: " << secretWord;
         Sleep(500);
+        if(kbhit())
+        {
+            break;
+        }
     }
 }

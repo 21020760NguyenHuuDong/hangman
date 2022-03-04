@@ -26,14 +26,14 @@
 1646310097 e:\chuacpp\ltnc1\game\bai3\hangman3.0\figure.h
 	<string>
 
-1646306911 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\draw.cpp
+1646327524 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\draw.cpp
 	"draw.h"
 
-1646304707 e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\draw.h
+1646327654 e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\draw.h
 	"function.h"
 	"figure.h"
 
-1646310341 e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\function.h
+1646327584 e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\function.h
 	<iostream>
 	<vector>
 	<set>
@@ -46,11 +46,12 @@
 1646310097 e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\figure.h
 	<string>
 
-1646310325 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\main.cpp
+1646329834 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\main.cpp
 	"function.h"
 	"draw.h"
+	"doPlayer.h"
 
-1646310279 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\function.cpp
+1646311087 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\function.cpp
 	"function.h"
 
 1646310097 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\figure.cpp
@@ -58,4 +59,11 @@
 
 1646310097 source:e:\chuacpp\ltnc1\game\bai3\hangman3.0\figure.cpp
 	"figure.h"
+
+1646329408 e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\doplayer.h
+	"function.h"
+	"draw.h"
+
+1646329454 source:e:\chuacpp\ltnc1\game\bai3\new folder\hangman\hangman3.0\doplayer.cpp
+	"doPlayer.h"
 

@@ -6,6 +6,7 @@
 
 using namespace std;
 
+const int NUMBER_FIGURE_END_GAME = 8;
 void renderGame(int numberBadGuess, const set<char>& guessedBadChar, string guessWord);
 void renderResultGame(string guessWord, string secretWord);
 void renderResultWinGame();
